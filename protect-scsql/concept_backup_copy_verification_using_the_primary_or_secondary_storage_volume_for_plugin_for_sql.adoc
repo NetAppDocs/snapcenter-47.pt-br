@@ -10,6 +10,7 @@ summary: É possível verificar cópias de backup no volume de storage primário
 :imagesdir: ../media/
 
 
+[role="lead"]
 É possível verificar cópias de backup no volume de storage primário ou no volume de storage secundário SnapMirror ou SnapVault. A verificação usando um volume de storage secundário reduz a carga no volume de storage primário.
 
 Quando você verifica um backup no volume de storage primário ou secundário, todas as cópias Snapshot primário e secundário são marcadas como verificadas.

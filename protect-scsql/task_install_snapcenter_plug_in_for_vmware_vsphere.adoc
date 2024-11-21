@@ -10,6 +10,7 @@ summary: 'Se seu banco de dados estiver armazenado em máquinas virtuais (VMs) o
 :imagesdir: ../media/
 
 
+[role="lead"]
 Se seu banco de dados estiver armazenado em máquinas virtuais (VMs) ou se você quiser proteger VMs e datastores, será necessário implantar o plug-in do SnapCenter para o dispositivo virtual VMware vSphere.
 
 Para obter informações sobre como implantar, https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_get_started_overview.html["Visão geral da implantação"^] consulte .

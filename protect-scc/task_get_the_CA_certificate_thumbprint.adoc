@@ -10,6 +10,7 @@ summary: Obtenha a impressão digital do certificado CA.
 :imagesdir: ../media/
 
 
+[role="lead"]
 Uma impressão digital de certificado é uma cadeia hexadecimal que identifica um certificado. Uma impressão digital é calculada a partir do conteúdo do certificado usando um algoritmo de impressão digital.
 
 *Passos*

@@ -21,7 +21,7 @@ Você deve anexar uma ou mais políticas ao grupo de recursos para definir o tip
 
 A imagem a seguir ilustra a relação entre recursos, grupos de recursos e políticas para bancos de dados:
 
-image::../media/sco_resourcegroup_policy.gif[política do sco resourcegroup]
+image::../media/sco_resourcegroup_policy.gif[adicionar política do grupo de recursos]
 
 *Passos*
 
@@ -82,12 +82,12 @@ NOTE: Você pode adicionar bancos de dados de hosts Linux e AIX em um único gru
 .. Selecione uma ou mais políticas na lista suspensa.
 +
 
-NOTE: Você também pode criar uma política clicando image:../media/add_policy_from_resourcegroup.gif[""]em .
+NOTE: Você também pode criar uma política clicando image:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"]em .
 
 +
 Na seção Configurar agendas para políticas selecionadas, as políticas selecionadas são listadas.
 
-.. Clique emimage:../media/add_policy_from_resourcegroup.gif[""]* * na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.
+.. Clique emimage:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"]* * na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.
 .. Na janela Adicionar programações para a política _policy_name_, configure a programação e clique em *OK*.
 +
 Onde, _policy_name_ é o nome da política selecionada.
@@ -103,7 +103,7 @@ As agendas de backup de terceiros não são suportadas quando sobrepõem-se às 
 . Na página Verificação, execute as seguintes etapas:
 +
 .. Clique em *carregar localizadores* para carregar os volumes SnapMirror ou SnapVault para executar a verificação no armazenamento secundário.
-.. Clique emimage:../media/add_policy_from_resourcegroup.gif[""]* * na coluna Configurar agendas para configurar o agendamento de verificação para todos os tipos de agendamento da política.
+.. Clique emimage:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"]* * na coluna Configurar agendas para configurar o agendamento de verificação para todos os tipos de agendamento da política.
 .. Na caixa de diálogo Adicionar agendamentos de verificação policy_name , execute as seguintes ações:
 +
 |===

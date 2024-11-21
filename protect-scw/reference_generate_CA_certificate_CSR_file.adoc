@@ -6,8 +6,11 @@ summary: 'Você pode gerar uma solicitação de assinatura de certificado (CSR) 
 ---
 = Gerar arquivo CSR do certificado CA
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
+[role="lead"]
 Você pode gerar uma solicitação de assinatura de certificado (CSR) e importar o certificado que pode ser obtido de uma autoridade de certificação (CA) usando a CSR gerada. O certificado terá uma chave privada associada a ele.
 
 CSR é um bloco de texto codificado que é dado a um fornecedor de certificado autorizado para obter o certificado CA assinado.

@@ -10,6 +10,7 @@ summary: 'O Windows Server 2012 ou posterior permite criar uma conta de serviço
 :imagesdir: ../media/
 
 
+[role="lead"]
 O Windows Server 2012 ou posterior permite criar uma conta de serviço gerenciado de grupo (gMSA) que fornece gerenciamento automatizado de senha de conta de serviço a partir de uma conta de domínio gerenciado.
 
 *O que você vai precisar*

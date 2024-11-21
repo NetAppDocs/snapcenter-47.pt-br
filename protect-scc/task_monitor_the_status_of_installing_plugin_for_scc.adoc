@@ -10,6 +10,7 @@ summary: Pode monitorizar o progresso da instalação do pacote de plug-ins do S
 :imagesdir: ../media/
 
 
+[role="lead"]
 Pode monitorizar o progresso da instalação do pacote de plug-ins do SnapCenter utilizando a página trabalhos. Você pode querer verificar o andamento da instalação para determinar quando ela está concluída ou se há um problema.
 
 *Sobre esta tarefa*

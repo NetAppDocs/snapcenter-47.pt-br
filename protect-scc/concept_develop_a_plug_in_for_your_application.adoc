@@ -27,7 +27,6 @@ Para usar plug-ins personalizados no SnapCenter, você deve executar as seguinte
 
 == Tratamento genérico de plug-in em todas as chamadas de API
 
-[role="lead"]
 Para cada chamada de API, use as seguintes informações:
 
 * Parâmetros do plug-in

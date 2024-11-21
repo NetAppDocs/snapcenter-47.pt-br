@@ -52,7 +52,7 @@ Na página *Detalhes da tarefa*, uma mensagem de aviso recomenda que o cliente c
 ... Clique em *Upgrade*.
 
 
-** Se você quiser atualizar vários hosts, selecione todos os hosts, clique image:../media/more_icon.gif[""]em e clique em *Upgrade* > *OK*.
+** Se você quiser atualizar vários hosts, selecione todos os hosts, clique image:../media/more_icon.gif["ícone mais"]em e clique em *Upgrade* > *OK*.
 +
 
 NOTE: Todos os plug-ins do pacote são selecionados, mas apenas os plug-ins que foram instalados com a versão anterior do SnapCenter são atualizados e os plug-ins restantes não são instalados. Você deve usar a opção *Add plug-ins* para instalar qualquer novo plug-in.

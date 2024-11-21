@@ -10,6 +10,7 @@ summary: Você deve configurar os certificados de CA e implantar os certificados
 :imagesdir: ../media/
 
 
+[role="lead"]
 Você deve configurar os certificados de CA e implantar os certificados de CA no servidor SnapCenter e nos hosts de plug-in correspondentes. Você deve habilitar a validação do certificado CA para os plug-ins.
 
 *O que você vai precisar*
@@ -18,7 +19,7 @@ Você deve configurar os certificados de CA e implantar os certificados de CA no
 * Você pode exibir o status do certificado para os plug-ins usando as _Get-SmCertificateSettings_.
 
 
-As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guia de referência de cmdlet do software SnapCenter"^].
+As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guia de referência de cmdlet do software SnapCenter"^].
 
 *Passos*
 
@@ -33,10 +34,10 @@ As informações sobre os parâmetros que podem ser usados com o cmdlet e suas d
 
 O host de guia hosts gerenciados exibe um cadeado e a cor do cadeado indica o status da conexão entre o servidor SnapCenter e o host do plug-in.
 
-* image:../media/enable_ca_issues_icon.png[""]* * Indica que o certificado da CA não está habilitado nem atribuído ao host do plug-in.
-* image:../media/enable_ca_good_icon.png[""]* * Indica que o certificado da CA foi validado com êxito.
-* image:../media/enable_ca_failed_icon.png[""]* * Indica que o certificado da CA não pôde ser validado.
-* image:../media/enable_ca_undefined_icon.png[""]* * indica que as informações de conexão não puderam ser recuperadas.
+* image:../media/enable_ca_issues_icon.png["ícone de problemas"]* * Indica que o certificado da CA não está habilitado nem atribuído ao host do plug-in.
+* image:../media/enable_ca_good_icon.png["ca bom ícone"]* * Indica que o certificado da CA foi validado com êxito.
+* image:../media/enable_ca_failed_icon.png["ícone de falha na ca"]* * Indica que o certificado da CA não pôde ser validado.
+* image:../media/enable_ca_undefined_icon.png["ícone ca inacabado"]* * indica que as informações de conexão não puderam ser recuperadas.
 +
 
 NOTE: Quando o status é amarelo ou verde, as operações de proteção de dados são concluídas com êxito.

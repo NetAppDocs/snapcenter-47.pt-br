@@ -59,8 +59,8 @@ Quando você clica no nome do cluster, todos os SVMs que fazem parte do cluster 
 A coluna Licença do controlador exibe o seguinte status:
 
 +
-** image:../media/controller_licensed_icon.gif[""] Indica que uma licença do SnapManager Suite está instalada em um sistema de storage primário FAS ou AFF.
-** image:../media/controller_not_licensed_icon.gif[""] Indica que uma licença do SnapManager Suite não está instalada em um sistema de storage primário FAS ou AFF.
+** image:../media/controller_licensed_icon.gif["ícone de licença do controlador"] Indica que uma licença do SnapManager Suite está instalada em um sistema de storage primário FAS ou AFF.
+** image:../media/controller_not_licensed_icon.gif["ícone controlador não licenciado"] Indica que uma licença do SnapManager Suite não está instalada em um sistema de storage primário FAS ou AFF.
 ** Não aplicável indica que uma licença do SnapManager Suite não é aplicável porque o controlador de storage está em plataformas de storage Cloud Volumes ONTAP, ONTAP Select ou secundárias.
 
 
@@ -180,7 +180,7 @@ Se você não inserir credenciais válidas, nenhuma informação será retornada
 . Navegue até *sistemas* > *licenças de software*.
 . Na área critérios de seleção, certifique-se de que o número de série (localizado na parte de trás da unidade) está selecionado, introduza o número de série do controlador e, em seguida, clique em *Go!*.
 +
-image::../media/nss_controller_license_select.gif[seleção da licença do controlador nss]
+image::../media/nss_controller_license_select.gif[selecione a licença do controlador]
 
 +
 É apresentada uma lista de licenças para o controlador especificado.
@@ -238,7 +238,7 @@ NOTE: A remoção manual de uma licença de teste só é necessária se estiver 
 .. Execute o cmdlet Open-SmConnection para iniciar uma sessão de conexão com o servidor SnapCenter para uma conta SnapCenterAdmin.
 .. Execute o Set-SmRepositoryPassword para redefinir a senha do MySQL.
 +
-Para obter informações sobre os cmdlets, https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guia de referência de cmdlet do software SnapCenter"^] consulte .
+Para obter informações sobre os cmdlets, https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guia de referência de cmdlet do software SnapCenter"^] consulte .
 
 
 

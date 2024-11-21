@@ -23,10 +23,6 @@ link:concept_develop_a_plug_in_for_your_application.html["Desenvolva um plug-in 
 * Você deve ter carregado os plug-ins para o servidor SnapCenter.
 
 
-*Sobre esta tarefa*
-
-Você também pode adicionar recursos para aplicativos MySQL e DB2. Esses plug-ins podem ser baixados do https://automationstore.netapp.com/home.shtml["Repositório de automação do storage da NetApp"].
-
 *Passos*
 
 . No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.
@@ -75,7 +71,7 @@ Introduza os caminhos de montagem onde o recurso está montado. Isso é aplicáv
 |===
 . Na página fornecer espaço físico de armazenamento, selecione um sistema de armazenamento e escolha um ou mais volumes, LUNs e qtrees e clique em *Salvar*.
 +
-Opcional: Clique no image:../media/add_policy_from_resourcegroup.gif[""] ícone para adicionar mais volumes, LUNs e qtrees de outros sistemas de armazenamento.
+Opcional: Clique no image:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"] ícone para adicionar mais volumes, LUNs e qtrees de outros sistemas de armazenamento.
 
 +
 

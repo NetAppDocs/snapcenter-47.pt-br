@@ -84,7 +84,7 @@ Você deve ter credenciais de login válidas no site de suporte da NetApp.
 . Navegue até *sistemas* > *licenças de software*.
 . Na área critérios de seleção, escolha *SC_STANDARD* no menu suspenso Mostrar tudo: Números de série e licenças.
 +
-image::../media/nss_license_selection.gif[seleção de licença nss]
+image::../media/nss_license_selection.gif[licença]
 
 . Digite o nome da sua empresa e clique em *Go!*.
 +
@@ -150,7 +150,7 @@ NOTE: A licença de teste (número de série que termina com 50) não pode ser e
 
 . No painel de navegação esquerdo, clique em *Configurações*.
 . Na página Configurações, clique em *Software*.
-. Na seção Licença da página Software, clique em *Add* (image:../media/add_policy_from_resourcegroup.gif[""]).
+. Na seção Licença da página Software, clique em *Add* (image:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"]).
 . No assistente Adicionar licença SnapCenter, selecione um dos seguintes métodos para obter a licença que deseja adicionar:
 +
 |===
