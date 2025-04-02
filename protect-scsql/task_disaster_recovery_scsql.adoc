@@ -29,4 +29,4 @@ link:https://docs.netapp.com/us-en/snapcenter/admin/concept_manage_hosts.html["G
 . Importe programações do Windows e SQL da pasta do plug-in do SnapCenter para SQL Server do backup de DR.
 
 
-Para obter mais informações, consulte o https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["APIs de recuperação de desastres"^] vídeo.
+Para obter mais informações, consulte o https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["APIs de recuperação de desastres"^] vídeo.
