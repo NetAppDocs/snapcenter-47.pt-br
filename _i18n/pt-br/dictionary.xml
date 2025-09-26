@@ -6284,7 +6284,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Você deve ter um usuário com permissões sysadmin no SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">O plug-in do SnapCenter para Microsoft SQL Server usa o Microsoft VDI Framework, que requer acesso sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Artigo 2926557: As operações de backup e restauração do SQL Server VDI exigem o sysadmin Privileges</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Se o SnapManager for instalado, você deve ter parado ou desativado o serviço e as programações.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">O host deve ser resolvido para o nome de domínio totalmente qualificado (FQDN) do servidor.</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">Se o arquivo hosts for modificado para torná-lo resoluvel e se o nome curto e o FQDN forem especificados no arquivo hosts, crie uma entrada no arquivo SnapCenter hosts no seguinte formato: &lt;ip_address&gt; &lt;host_fqdn&gt; &lt;host_name&gt;</block>
@@ -7938,4 +7937,5 @@
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">Se você quiser atualizar vários hosts, selecione todos os hosts, clique <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>em e clique em *Upgrade* &gt; *OK*.</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Para obter mais informações, consulte o<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vídeo.</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
