@@ -136,4 +136,10 @@ Os iniciadores devem ser FC ou Microsoft iSCSI, mas não ambos.
 
 Antes de usar LUNs FC RDM para compartilhar o storage entre nós em um cluster da Microsoft, primeiro você deve criar o disco de quorum compartilhado e o disco de storage compartilhado e adicioná-los a ambas as máquinas virtuais no cluster.
 
-O disco compartilhado não é criado usando o plug-in para Windows. Você deve criar e adicionar o LUN compartilhado a cada máquina virtual no cluster. Para obter informações, https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.mscs.doc/GUID-1A2476C0-CA66-4B80-B6F9-8421B6983808.html["Cluster de máquinas virtuais em hosts físicos"^]consulte .
+O disco compartilhado não é criado usando o Plug-in for Windows. Você deve criar e, em seguida, adicionar o LUN compartilhado a cada máquina virtual no cluster.
+
+
+
+=== Informações relacionadas
+
+Consulte  https://techdocs.broadcom.com/["Documentação técnica Broadcom"^] e pesquise a documentação sobre clustering de máquinas virtuais em hosts físicos e criação de LUNs FC RDM compartilhadas para clusters Microsoft.

@@ -383,7 +383,6 @@
   <block id="6d2bf94f38d1fdf840fe9b231866899c" category="inline-link">Visão geral da implantação</block>
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">Para obter informações sobre como implantar,<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block> consulte .</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">Criar ou importar certificado SSL</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">Para configurar o certificado CA com o plug-in SnapCenter para VMware vSphere,<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block> consulte .</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">Configure o arquivo CRL</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">O plug-in do SnapCenter para VMware vSphere procura os arquivos CRL em um diretório pré-configurado. O diretório padrão dos arquivos CRL para o plug-in do SnapCenter para VMware vSphere é _/opt/NetApp/config/crl_.</block>
   <block id="2794927004b00b8d766ca3deca4c7096" category="paragraph">Você pode monitorar o progresso de diferentes operações de backup usando a página SnapCenterJobs. Você pode querer verificar o progresso para determinar quando ele está concluído ou se há um problema.</block>
@@ -1601,8 +1600,6 @@
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">O plug-in para Windows não suporta MPIO em máquinas virtuais em um cluster da Microsoft.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">Crie um LUN FC RDM compartilhado</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">Antes de usar LUNs FC RDM para compartilhar o storage entre nós em um cluster da Microsoft, primeiro você deve criar o disco de quorum compartilhado e o disco de storage compartilhado e adicioná-los a ambas as máquinas virtuais no cluster.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">Cluster de máquinas virtuais em hosts físicos</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">O disco compartilhado não é criado usando o plug-in para Windows. Você deve criar e adicionar o LUN compartilhado a cada máquina virtual no cluster. Para obter informações,<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>consulte .</block>
   <block id="c939b5dd7dddc4f1908d7f58a2ab351d" category="summary">O SnapCenter requer várias licenças para habilitar operações de proteção de dados. O tipo de licenças do SnapCenter que você instala depende do ambiente de storage e dos recursos que deseja usar.</block>
   <block id="07cdb1cc7dcc527060e65d98659cb1d4" category="doc">Licenças SnapCenter</block>
   <block id="03d6fc6f0007d8c1e15a56f0a4522686" category="paragraph">O SnapCenter requer várias licenças para habilitar a proteção de dados de aplicativos, bancos de dados, sistemas de arquivos e máquinas virtuais. O tipo de licenças do SnapCenter que você instala depende do ambiente de storage e dos recursos que deseja usar.</block>
@@ -6275,8 +6272,6 @@
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">Execute o ciclo de vida do clone</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link-macro">A operação de clone pode falhar ou levar mais tempo para ser concluída com o valor padrão TCP_TIMEOUT</block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="e120fc76fd23e12235b495bc6454901a" category="doc">ONTAP Privileges mínimo necessário para plug-in SQL</block>
   <block id="f9769cb6db4dd2d01611ef4c2e69e554" category="doc">Preparar sistemas de storage para replicação SnapMirror e SnapVault para plug-in para SQL Server</block>
   <block id="f9ba38b961aca7823da15b938828b64f" category="doc">Pré-requisitos para adicionar hosts e instalar o plug-in do SnapCenter para Microsoft SQL Server</block>
@@ -6413,11 +6408,7 @@
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">Um grupo de recursos implícito é criado. Pode ver isto selecionando o respetivo utilizador ou grupo na página Acesso ao Utilizador. O tipo de grupo de recursos implícito é "recurso".</block>
   <block id="bd399fbf6546e1ea1b462c96e03932f3" category="inline-link-macro">Criar políticas de backup para bancos de dados do SQL Server</block>
   <block id="50e1edb21a598f492619b01f99e77a4f" category="paragraph"><block ref="50e1edb21a598f492619b01f99e77a4f" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">Operações de backup falha com erro de conexão MySQL devido ao atraso no TCP_TIMEOUT</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">A cópia de segurança falha com o erro do programador do Windows</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="2414432c60e82c4bed04be0e4dafda65" category="doc">Fazer backup de grupos de recursos do SQL Server</block>
   <block id="d8a3458cd303d8d6a9529b6dbba62424" category="list-text">Após o backup, selecione *Verify* para verificar o backup sob demanda.</block>
   <block id="8e927494c3186b26a3de09d9578e731f" category="paragraph">A opção *Verify* na política aplica-se apenas a trabalhos agendados.</block>
@@ -6472,9 +6463,7 @@
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">Faça backup do banco de dados do SQL Server, instância ou grupo de disponibilidade</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">O clone do banco de dados de instância do cluster de failover falha</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="d46bdc3a4fe241badafb83ade1e31452" category="summary">Você pode configurar credenciais para executar tarefas de proteção de dados em recursos individuais do SQL Server para cada usuário.</block>
   <block id="78cb0d244e4320583b51cc8da36e130e" category="doc">Configurar credenciais para um recurso do SQL Server individual</block>
   <block id="82ebbd4916aa80b290bf59524e5e173b" category="paragraph">Você pode configurar credenciais para executar tarefas de proteção de dados em recursos individuais do SQL Server para cada usuário. Embora você possa configurar as credenciais globalmente, talvez você queira fazer isso apenas para um recurso específico.</block>
@@ -7938,4 +7927,12 @@
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Para obter mais informações, consulte o<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vídeo.</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">Para configurar o certificado CA com o SnapCenter Plug-in for VMware vSphere, consulte <block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">O disco compartilhado não é criado usando o Plug-in for Windows. Você deve criar e, em seguida, adicionar o LUN compartilhado a cada máquina virtual no cluster.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">Informações relacionadas</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Documentação técnica Broadcom</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph">Consulte <block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block> e pesquise a documentação sobre clustering de máquinas virtuais em hosts físicos e criação de LUNs FC RDM compartilhadas para clusters Microsoft.</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>

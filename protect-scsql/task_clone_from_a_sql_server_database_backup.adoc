@@ -168,6 +168,4 @@ link:reference_back_up_sql_server_database_or_instance_or_availability_group.htm
 
 link:task_clone_backups_using_powershell_cmdlets_for_sql.html["Clonar backups usando cmdlets do PowerShell"]
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/Clone_operation_might_fail_or_take_longer_time_to_complete_with_default_TCP_TIMEOUT_value["A operação de clone pode falhar ou levar mais tempo para ser concluída com o valor padrão TCP_TIMEOUT"]
-
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/The_failover_cluster_instance_database_clone_fails["O clone do banco de dados de instância do cluster de failover falha"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/The_failover_cluster_instance_database_clone_fails["O clone do banco de dados de instância do cluster de failover falha"^]
